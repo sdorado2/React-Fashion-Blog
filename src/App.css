@@ -1,3 +1,29 @@
+html {
+  border-left: 5px solid lightgray;
+}
+
+body {
+  min-height: 100%;
+  max-width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+time {
+  display: flex;
+  align-items: flex-start;
+}
+
+h2 {
+  display: flex;
+  align-items: flex-start;
+  font-size: xx-large;
+}
+
+img {
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +61,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header h1 {
+  color: tomato;
+}
+
+.navBar {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar a {
+  color: lightgray;
+}
+
+.content {
+  /* display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 4rem;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.content p::first-letter {
+  font-size: 3rem;
+  color: lightgray;
+  float: left;
+  border: solid black;
+}
+
+.continue {
+  /* border : solid firebrick; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-weight: bold;
+}
+.continue a {
+  color: tomato;
+  text-decoration: none;
+  text-align: end;
+}
+
+.footer {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: tomato;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-start;
+  color: lightgray;
 }
